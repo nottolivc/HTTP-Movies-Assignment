@@ -30,12 +30,11 @@ export default function UpdateMovieForm({ listMovies, match, updateMovie }) {
                 Metascore
                 <Field name="metascore" type="text" />
               </label>
-                }}
-              />
-              <button className="submit-btn" type="submit">Submit</button>
+              
+              <button className="submit-btn" type="submit">Update </button>
             </Form>
           );
-        }}
+          }}
       />
     </div>
   );
